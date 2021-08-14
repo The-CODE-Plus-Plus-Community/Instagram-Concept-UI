@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 98vw;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav {
+    height: 100vh;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 23vh;
+    padding-left: 5px;
+    border-right: 4px solid aliceblue;
+}
+
+.nav li{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    transform: rotate(-30deg);
+}
+
+.nav button{
+    border: none;
+    background: none;
+}
+
+.content{
+    width: 73vw;
+    display: flex;
+    flex-direction: column;
+    border-right: 4px solid aliceblue;
+}
+
+.brand img{
+    height: 27px;
+    width: 125px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.searchbar{
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.fa{
+    height: 45px;
+    width: 270px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #dae4ee;
+    border-radius: 10px;
+    border: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 4px solid aliceblue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item{
+    border: 4px solid aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pp{
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-right:10px ;
+}
+.pp-name{
+    font-size: 14px;
+    padding-top:5px;
+    font-weight: 900;
+}
+.pp-city{
+    font-size: 11px;
+}
+.post-pp-info{
+    width: 175px;
+}
+
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.post-menu-icon{
+    padding-top:10px ;
+    padding-right: 15px;
+}
+
+.post-img {
+    height: 250px;
+    width: 22vw;
+    margin-top: 10px;
+    border-radius: 30px;
+    
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.likes{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.comments{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.likes span{
+    font-weight: 900;
+}
+
+.date{
+    font-size: 14px;
+    color: rgb(94, 92, 92);
+    margin-top: 3px;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+.notif{
+    height: 60px;
+    color: orangered;
+
+}
+.notif i{
+    padding-top: 10px;
+    padding-left: 18vw;
+}
+
+.pic-cont{
+    border: 2px solid transparent;
+    background-color:orange ;
+    margin-top: 20px;
+    height: 90px;
+    width: 90px;
+    margin-left: 110px;  
+    border-radius: 50%;
+}
+
+.propic{
+    height: 90px;
+    width: 90px;
+}
+
+#name{
+    padding-top: 10px;
+    padding-left: 105px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+#description{
+    padding-left: 100px;
+    font-size:medium;
+    font-weight: 900;
+    color: grey;
+    padding-top: 5px;
+}
+
+#edit{
+    margin-left: 125px;
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    font-size: small;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+.count{
+    font-weight: 900;
+}
+
+.count-tag{
+    margin-top: 7px;
+    font-size: medium;
+    color: grey;
+    font-weight: 900;
+}
+
+.bio{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+#bio-name{
+    font-weight: bold;
+    font-size: large;
+}
+
+.bio-para{
+    margin-top: 10px;
+}
+
+.bio-text{
+    margin-top: 1px;
+    text-align: left;
+    color: grey;
+    font-weight: 700;
+}
+
+.blog-link{
+    margin-top: 5px;
+    color: blue;
+}
+
+.story{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.story-tag{
+    font-weight: 900;
+    font-size: large;
+}
+
+.story-img{
+    height: 55px;
+    width: 55px;
+}
+
+.grid-container-1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-item-1{
+    padding: 2px;
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-text{
+    margin-top: 10px;
+    font-size: smaller;
+    font-weight: 700;
+    color: rgb(82, 78, 78);
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.create-btn{
+    height: 40px;
+    width: 250px;
+    margin-left: 50px;
+    font-weight: 900;
+    color: azure;
+    background-image: linear-gradient(to right,rgb(245, 105, 128),rgb(243, 175, 49));
+    border: none;
+    border-radius: 10px;
+}
